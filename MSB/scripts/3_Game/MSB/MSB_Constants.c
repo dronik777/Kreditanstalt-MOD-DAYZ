@@ -1,0 +1,4 @@
+const	int	MSB_INT_PACKET_ID_MOD			=	100003;
+
+const	int	MSB_INT_STC_PACKET_ID_UID		=	1;
+const	int	MSB_INT_STC_PACKET_ID_INIT	=	2;

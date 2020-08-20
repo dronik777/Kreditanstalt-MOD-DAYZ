@@ -1,0 +1,1 @@
+const int MCB_INT_PACKET_ID_MOD = 100003;const int MCB_INT_STC_PACKET_ID_UID = 1;const int MCB_INT_STC_PACKET_ID_INIT = 2;

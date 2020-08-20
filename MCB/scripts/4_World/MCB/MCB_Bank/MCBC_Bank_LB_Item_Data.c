@@ -1,0 +1,1 @@
+class MCBC_Bank_LB_Item_Data{ protected string m_Data; void MCBC_Bank_LB_Item_Data( string OKOUNSNABAJSXRDNCSNARBMT ) { m_Data = OKOUNSNABAJSXRDNCSNARBMT; } string GetData() { return m_Data; }}

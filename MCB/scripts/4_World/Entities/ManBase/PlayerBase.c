@@ -1,0 +1,1 @@
+modded class PlayerBase{ override void Init() { super.Init(); if ( MCBC_ManagerGlobal ) { if ( !GetGame().IsMultiplayer() ) { MCBC_ManagerGlobal.Init(); } } } override void OnRPC( PlayerIdentity sender, int rpc_type, ParamsReadContext ctx ) { super.OnRPC( sender, rpc_type, ctx ); if ( MCBC_ManagerGlobal ) { MCBC_ManagerGlobal.OnRPC( sender, rpc_type, ctx ); } }}

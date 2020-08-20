@@ -1,0 +1,278 @@
+FrameWidgetClass rootFrame {
+ size 664.08002 615.05597
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ {
+  PanelWidgetClass Panel_Bank {
+   ignorepointer 1
+   color 0 0 0 0.5
+   position -0.00127 -0.00471
+   size 1 0.98653
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   style rover_sim_colorable
+   {
+    TextWidgetClass Caption {
+     ignorepointer 1
+     position 0.00002 6.93976
+     size 1 47.523
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     style Bold
+     text "ОНЛАЙН БАНК"
+     "text halign" center
+     "text valign" center
+    }
+    TextListboxWidgetClass ListBox_Players {
+     position 6.93974 444.54901
+     size 293.229 134.65102
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     font "gui/fonts/etelkatextpro16"
+    }
+    TextWidgetClass Caption_Players {
+     ignorepointer 1
+     position 6.93974 404.521
+     size 293.00101 33.088
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Клиенты онлайн:"
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass Caption_Cash {
+     ignorepointer 1
+     position 17.8012 233.285
+     size 135.75301 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Наличные:"
+     "text valign" center
+    }
+    TextWidgetClass Caption_Cash_Value {
+     ignorepointer 1
+     position 153.554 233.285
+     size 216.47701 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "0"
+     "text halign" right
+     "text valign" center
+    }
+    TextWidgetClass Caption_Bank {
+     ignorepointer 1
+     position 17.7987 285.10501
+     size 135.758 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "На счёту:"
+     "text valign" center
+    }
+    TextWidgetClass Caption_Bank_Value {
+     ignorepointer 1
+     position 153.554 284.10501
+     size 216.47701 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "0"
+     "text halign" right
+     "text valign" center
+    }
+    EditBoxWidgetClass Edit_CashOrBank {
+     position 213.91899 183.929
+     size 236.241 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Editor
+     "exact text" 1
+     font "gui/fonts/etelkatextpro16"
+    }
+    ButtonWidgetClass Button_CashToBank {
+     position 392.01999 240.22501
+     size 236.40599 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     scaled 1
+     style Editor
+     text "Пополнить банковский счёт"
+    }
+    ButtonWidgetClass Button_BankToCash {
+     position 392.02298 277.66501
+     size 236.40999 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Editor
+     text "Снять со счёта"
+    }
+    EditBoxWidgetClass Edit_UID {
+     position 465.10001 474.935
+     size 0.27257 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     style Editor
+     "exact text" 1
+     font "gui/fonts/etelkatextpro16"
+    }
+    ButtonWidgetClass Button_TransferToPlayer {
+     position 307.10901 511.875
+     size 340 27.2305
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     draggable 0
+     style Editor
+     text "Перевод на счёт клиента"
+    }
+    TextWidgetClass Caption_Error_Value {
+     ignorepointer 1
+     position -0.00011 1.93834
+     size 1.0209 23.7475
+     halign center_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     "text halign" center
+     "text valign" center
+    }
+    ImageWidgetClass Image_Separator_2 {
+     clipchildren 0
+     ignorepointer 1
+     position 6.93976 273.44202
+     size 371.20801 0.99999
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+    ImageWidgetClass Image_Separator_0 {
+     clipchildren 0
+     ignorepointer 1
+     position -83.3141 126.26199
+     size 1.17583 0.99998
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     filter 1
+    }
+    TextWidgetClass Caption0 {
+     ignorepointer 1
+     position -0.00012 336.44299
+     size 1.0209 47.523
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     style Light
+     text "Переводы"
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass Caption_Cash0 {
+     ignorepointer 1
+     position 206.979 0.23117
+     size 250.12102 30
+     hexactpos 1
+     vexactpos 0
+     hexactsize 1
+     vexactsize 1
+     text "Введите сумму:"
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass Caption1 {
+     ignorepointer 1
+     position -0.0001 71.79919
+     size 1.0209 47.523
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     style Light
+     text "Ваш счет"
+     "text halign" center
+     "text valign" center
+    }
+    ImageWidgetClass Image_Separator_3 {
+     clipchildren 0
+     ignorepointer 1
+     position -83.3141 61.4025
+     size 1.17583 3.45693
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    ImageWidgetClass Image_Separator_4 {
+     clipchildren 0
+     ignorepointer 1
+     position -76.3744 390.90601
+     size 1.17583 0.99998
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     filter 1
+    }
+    TextWidgetClass Caption_Cash1 {
+     ignorepointer 1
+     position 307.10901 474.935
+     size 156.052 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "UID клиента:"
+     "text halign" center
+     "text valign" center
+    }
+    ImageWidgetClass Image_Separator_1 {
+     clipchildren 0
+     ignorepointer 1
+     position -58.3826 329.50299
+     size 1.17583 3.45693
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+   }
+  }
+ }
+}

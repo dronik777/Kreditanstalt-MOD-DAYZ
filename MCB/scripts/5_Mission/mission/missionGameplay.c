@@ -1,0 +1,1 @@
+modded class MissionGameplay{ override void OnInit() { super.OnInit(); MCBC_ManagerGlobal = new MCBC_Manager(); } override void OnKeyPress( int key ) { super.OnKeyPress( key ); MCBC_ManagerGlobal.OnKeyPress( key ); }}

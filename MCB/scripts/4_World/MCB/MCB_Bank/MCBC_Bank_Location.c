@@ -1,0 +1,1 @@
+class MCBC_Bank_Location{ vector m_Position = "0 0 0"; int m_Radius = 0; void MCBC_Bank_Location( vector RSOSFLYFBPDBTMTKPLYALPT, int DJYLSPDUXMVFEKYPHGHOXRDYN ) { m_Position = RSOSFLYFBPDBTMTKPLYALPT; m_Radius = DJYLSPDUXMVFEKYPHGHOXRDYN; } void ~MCBC_Bank_Location() { } vector GetPosition() { return m_Position; } int GetRadius() { return m_Radius; } }
